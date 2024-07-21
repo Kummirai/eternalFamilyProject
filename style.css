@@ -5,29 +5,77 @@ box-sizing: 0;
 font-family: "Poppins", sans-serif;
 }
 
+body{
+  position: relative;
+}
 header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
+  
 }
 
 nav{
-  background-color: #1D5665;
-  padding: 18px;
-  width: 40%;
-  display: flex;
-  justify-content: space-evenly;
+  padding: 18px 30px;
+/* Add a semi-transparent background color for better visibility */
+  background-color: rgba(82, 107, 72, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
 }
 
 nav a{
   text-decoration: none;
   padding: 3px 10px;
+  margin: 3px 30px;
   color: #fff;
 }
 
 nav a:hover{
-  color: #1D5665;
-  background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 3px;
 }
 
+.header-article{
+  background-image: url('/images/happyFamily.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.overlay{
+  background-color: rgb(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 40%;
+  color: #3F4726;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 90px;
+  }
+  
+.overlay p{
+    text-align: justify;
+}
+
+.overlay h1{
+  color: #3F4726;
+}
+
+header h1 {
+  color: #FE6F00;
+}
+
+header h1 span {
+  
+  color: #3F4726;#495A42
+}
