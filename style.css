@@ -80,11 +80,12 @@ header h1 span {
 }
 
 #marriage{
-  min-height: 60vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #F9FDEF;
   
 }
 
@@ -107,4 +108,32 @@ header h1 span {
 
 .weddingCoupleContent{
   width: 80%;
+}
+
+.weddingInTemple{
+  height: 100vh;
+  position: relative;
+}
+
+.weddingInTemple img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.weddingInTemple .cute-heading{
+  height: 50vh;
+  position: absolute;
+  top: 25vh;
+  left: 20%;
+  color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.weddingInTemple h3{
+  text-align: justify;
 }
