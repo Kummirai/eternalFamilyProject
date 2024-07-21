@@ -4,3 +4,30 @@ padding: 0;
 box-sizing: 0;
 font-family: "Poppins", sans-serif;
 }
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav{
+  background-color: #1D5665;
+  padding: 18px;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 3px 10px;
+  color: #fff;
+}
+
+nav a:hover{
+  color: #1D5665;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
