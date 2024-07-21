@@ -164,4 +164,28 @@ header h1 span {
 .coupleDo li{
   text-align: justify;
   padding:  0 18px;
+  font-size: 14px;
+}
+.family-article{
+  background-image: url('/images/familyGathering.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#family{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+#family div{
+  width: 80%;
+}
+
+#family p{
+  text-align: justify;
 }
