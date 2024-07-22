@@ -185,20 +185,21 @@ header h1 span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #F9FDEF;
+  background-color: #e4ebd2;
   padding: 20px;
+  height: auto;
 }
 
 .family-article img{
-  width: 70%;
-  height: auto;
+  width: 80%;
+  height: 80vh;
   object-fit: cover;
 }
 
 #family{
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 40vh;
   justify-content: center;
   align-items: center;
   color: black;
