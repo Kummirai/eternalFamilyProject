@@ -255,10 +255,11 @@ h3{
   }
 
   .coupleDo ol{
-    margin: 20px 0;
+    margin: 40px 0;
+    width: 80%;
   }
   .coupleDo li{
-    font-size: 12px;
+    font-size: 14px;
   }
   .family-article img{
     width: 100%;
