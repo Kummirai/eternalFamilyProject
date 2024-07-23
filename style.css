@@ -145,15 +145,10 @@ header h1 span {
   text-align: center;
 }
 
-.coupleDo{
-  display: flex;
-  width: 100%;
-}
-
 .coupleDo img{
   object-fit: cover;
-  width: 40%;
-  height: auto;
+  width: 500px;
+  height: 400px;
 }
 
 .whatCouplesDo{
@@ -168,11 +163,14 @@ header h1 span {
   margin: 0 0 40px 0;
 }
 
+.coupleDo ol{
+  width: 50%;
+}
+
 .coupleDo{
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  width: 80%;
+  justify-content: center;
 }
 .coupleDo li{
   text-align: justify;
