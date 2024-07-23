@@ -381,6 +381,10 @@ h3{
 .family-content-heading{
   margin-bottom: 20px;
 }
+.my-footer h2{
+  width: 80%;
+  text-align: center;
+}
 }
 
 @media screen and (max-width: 480px){
