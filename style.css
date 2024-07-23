@@ -408,11 +408,12 @@ h3{
 
 @media screen and (max-width: 480px){
 
-  .header-article{
-    background-image: url('/images/happyFamily.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  .header-article {
+  background-image: url('/images/happyCouple.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
    .navbar{
     display: none;
    }
