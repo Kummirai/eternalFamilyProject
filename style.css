@@ -385,6 +385,10 @@ h3{
   width: 80%;
   text-align: center;
 }
+
+.whatCouplesDo h3{
+  margin: 20px 0 0 0;
+}
 }
 
 @media screen and (max-width: 480px){
