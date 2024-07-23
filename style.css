@@ -389,6 +389,9 @@ h3{
 .whatCouplesDo h3{
   margin: 40px 0;
 }
+.whatCouplesDo li{
+  font-size: 16px;
+}
 }
 
 @media screen and (max-width: 480px){
