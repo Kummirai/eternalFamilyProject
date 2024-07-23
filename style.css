@@ -185,7 +185,7 @@ header h1 span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e4ebd2;
+  /*background-color: #e4ebd2;*/
   padding: 20px;
   height: auto;
 }
@@ -303,6 +303,7 @@ h3{
     justify-content: center;
     width: 100%;
   }
+  
   .coupleDo img{
     width: 100%;
   }
